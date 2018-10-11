@@ -13,34 +13,75 @@
    background-color: #4688b8;
  }
 
+ .logo {
+   float: left;
+   padding-top: 20px;
+ }
+
+ .navbar ul li {
+   padding-top: 40px;
+   display: inline;
+   float: right;
+ }
+
+ .navbar ul li a {
+   padding: 10px;
+   text-transform: uppercase;
+ }
+
  .hero-image {
    background-image: url("img/skyline-across-the-lake-in-stockholm.jpg");
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
-   background-attachment: fixed;
-   height: 600px;
+   height: calc(100vh - 100px);
  }
 
  main {
    margin: auto;
    width: 1000px;
-   height: 1vh;
- }
-
- .navbar ul li {
-   display: inline;
-   float: right;
  }
 
  .om {
-   background-image: img("img/skyline-across-the-lake-in-stockholm.jpg");
-   background-size: cover;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+   padding-top: 100px;
+   margin: auto;
+   width: 1000px;
+   text-align: center;
+   line-height: 2em;
  }
 
+ .om h1 {
+   padding-bottom: 20px;
+ }
+
+ .utbildningar {
+   padding-top: 100px;
+   display: grid;
+ }
+
+ .login {
+   padding: 10px;
+   margin-top: 100px;
+   background-color: #4688b8;
+   display: flex;
+   justify-content: center;
+ }
+
+  .login form {
+    display: inline;
+  }
+
+  .login input {
+    display: inline
+  }
+
  footer {
+   padding-top: 100px;
    margin: auto;
+   display: grid;
+   justify-content: center;
+ }
+
+ .footer-1 {
+
  }
