@@ -6,20 +6,37 @@
  body {
    margin: auto;
    font-family: 'Open Sans', sans-serif;
-   width: 100vw;
+   width: 100%;
    box-sizing: border-box;
  }
 
  header {
    height: 100px;
    background-color: #4688b8;
+   width: 100%;
+   position: fixed;
+   display: block;
  }
 
  .logo {
    float: left;
-   padding-top: 20px;
+   padding-top: 30px;
+   padding-left: 100px;
+   color: #fff;
  }
 
+ .logo a {
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .logo a:hover {
+   color: red;
+ }
+
+  .navbar ul {
+    padding-right: 100px;
+  }
  .navbar ul li {
    padding-top: 40px;
    display: inline;
@@ -29,6 +46,12 @@
  .navbar ul li a {
    padding: 10px;
    text-transform: uppercase;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .navbar ul li a:hover {
+   text-decoration: underline;
  }
 
  .hero-image {
@@ -36,7 +59,7 @@
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
-   height: calc(100vh - 100px);
+   height: 100vh;
  }
 
  main {
