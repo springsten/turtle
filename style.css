@@ -6,6 +6,8 @@
  body {
    margin: auto;
    font-family: 'Open Sans', sans-serif;
+   width: 100vw;
+   box-sizing: border-box;
  }
 
  header {
@@ -39,13 +41,13 @@
 
  main {
    margin: auto;
-   width: 1000px;
+   width: 70%;
  }
 
  .om {
    padding-top: 100px;
    margin: auto;
-   width: 1000px;
+   width: 100%;
    text-align: center;
    line-height: 2em;
  }
@@ -56,7 +58,6 @@
 
  .utbildningar {
    margin: 0;
-   max-width: 1000px;
    padding-top: 100px;
    text-align: center;
  }
@@ -81,7 +82,6 @@
  .cards img {
    width: 250px;
    height: auto;
-
  }
 
  .card-1 {
@@ -103,9 +103,16 @@
 
  footer {
    padding-top: 100px;
-   margin: auto;
-   display: grid;
-   justify-content: center;
+   margin: 0;
+   display: inline;
  }
 
- .footer-1 {}
+ .footer-1 {
+   display: inline;
+   width: 50%;
+ }
+
+ .footer-2 {
+   display: inline;
+   width: 50%;
+ }
