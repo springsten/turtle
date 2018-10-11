@@ -1,15 +1,111 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
 
-body{
-  margin: 0 auto;
-  text-align: center;
-}
+ body {
+   margin: auto;
+   font-family: 'Open Sans', sans-serif;
+ }
 
-h5 {
-  color: green;
-}
+ header {
+   height: 100px;
+   background-color: #4688b8;
+ }
 
-h1{
-  color: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  
-}
+ .logo {
+   float: left;
+   padding-top: 20px;
+ }
+
+ .navbar ul li {
+   padding-top: 40px;
+   display: inline;
+   float: right;
+ }
+
+ .navbar ul li a {
+   padding: 10px;
+   text-transform: uppercase;
+ }
+
+ .hero-image {
+   background-image: url("img/skyline-across-the-lake-in-stockholm.jpg");
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: calc(100vh - 100px);
+ }
+
+ main {
+   margin: auto;
+   width: 1000px;
+ }
+
+ .om {
+   padding-top: 100px;
+   margin: auto;
+   width: 1000px;
+   text-align: center;
+   line-height: 2em;
+ }
+
+ .om h1 {
+   padding-bottom: 20px;
+ }
+
+ .utbildningar {
+   margin: 0;
+   max-width: 1000px;
+   padding-top: 100px;
+   text-align: center;
+ }
+
+ .cards {
+   margin: 0 auto;
+   max-width: 1000px;
+   text-align: left;
+   padding-top: 20px;
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+   grid-template-rows: 340px;
+   grid-gap: 20px;
+   text-align: center;
+ }
+
+ .cards p {
+   text-align: left;
+   padding: 10px;
+ }
+
+ .cards img {
+   width: 250px;
+   height: auto;
+
+ }
+
+ .card-1 {
+   grid-column:
+ }
+
+ .login {
+   margin-top: 50px;
+   background-color: #4688b8;
+ }
+
+ .login form {
+   display: inline;
+ }
+
+ .login input {
+   display: inline
+ }
+
+ footer {
+   padding-top: 100px;
+   margin: auto;
+   display: grid;
+   justify-content: center;
+ }
+
+ .footer-1 {}
