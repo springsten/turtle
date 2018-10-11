@@ -55,22 +55,33 @@
  }
 
  .utbildningar {
+   margin: 0;
+   max-width: 1000px;
    padding-top: 100px;
    text-align: center;
  }
 
  .cards {
+   margin: 0 auto;
+   max-width: 1000px;
    text-align: left;
    padding-top: 20px;
    display: grid;
    grid-template-columns: 33% 33% 33%;
-   grid-template-rows: 100px;
-   grid-gap: 3px;
+   grid-template-rows: 340px;
+   grid-gap: 20px;
+   text-align: center;
+ }
+
+ .cards p {
+   text-align: left;
+   padding: 10px;
  }
 
  .cards img {
    width: 250px;
    height: auto;
+
  }
 
  .card-1 {
@@ -78,7 +89,7 @@
  }
 
  .login {
-   margin-top: 100px;
+   margin-top: 50px;
    background-color: #4688b8;
  }
 
