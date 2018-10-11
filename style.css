@@ -1,13 +1,15 @@
 
 body{
   margin: 0 auto;
+  text-align: center;
 }
+
 h5 {
   color: green;
 }
 
 h1{
-  color: rgba(0, 0 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   display: inline-block;
   
 }
