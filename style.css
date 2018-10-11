@@ -56,24 +56,39 @@
 
  .utbildningar {
    padding-top: 100px;
+   text-align: center;
+ }
+
+ .cards {
+   text-align: left;
+   padding-top: 20px;
    display: grid;
+   grid-template-columns: 33% 33% 33%;
+   grid-template-rows: 100px;
+   grid-gap: 3px;
+ }
+
+ .cards img {
+   width: 250px;
+   height: auto;
+ }
+
+ .card-1 {
+   grid-column:
  }
 
  .login {
-   padding: 10px;
    margin-top: 100px;
    background-color: #4688b8;
-   display: flex;
-   justify-content: center;
  }
 
-  .login form {
-    display: inline;
-  }
+ .login form {
+   display: inline;
+ }
 
-  .login input {
-    display: inline
-  }
+ .login input {
+   display: inline
+ }
 
  footer {
    padding-top: 100px;
@@ -82,6 +97,4 @@
    justify-content: center;
  }
 
- .footer-1 {
-
- }
+ .footer-1 {}
