@@ -1,0 +1,46 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   margin: auto;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ header {
+   height: 100px;
+   background-color: #4688b8;
+ }
+
+ .hero-image {
+   background-image: url("img/skyline-across-the-lake-in-stockholm.jpg");
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 600px;
+ }
+
+ main {
+   margin: auto;
+   width: 1000px;
+   height: 1vh;
+ }
+
+ .navbar ul li {
+   display: inline;
+   float: right;
+ }
+
+ .om {
+   background-image: img("img/skyline-across-the-lake-in-stockholm.jpg");
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+
+ footer {
+   margin: auto;
+ }
