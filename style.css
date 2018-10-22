@@ -31,12 +31,13 @@
  }
 
  .logo a:hover {
-   color: red;
+   text-decoration: underline;
  }
 
-  .navbar ul {
-    padding-right: 100px;
-  }
+ .navbar ul {
+   padding-right: 100px;
+ }
+
  .navbar ul li {
    padding-top: 40px;
    display: inline;
@@ -86,7 +87,7 @@
  }
 
  .cards {
-   margin: 0 auto;
+   margin: 0 0 200px 0;
    max-width: 1000px;
    text-align: left;
    padding-top: 20px;
@@ -112,30 +113,45 @@
  }
 
  .login {
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    margin-top: 50px;
    background-color: #4688b8;
+   margin-bottom: 200px;
+   padding: 5px;
  }
 
  .login form {
-   display: inline;
+   display: flex;
  }
 
  .login input {
    display: inline
  }
 
- footer {
-   padding-top: 100px;
-   margin: 0;
-   display: inline;
+ .footer {
+   height: 150px;
+   background-color: #252525;
+   padding-top: 10px;
+   display: flex;
  }
 
- .footer-1 {
-   display: inline;
+ .footer-left {
+   color: #fff;
    width: 50%;
+   /*display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;*/
  }
 
- .footer-2 {
-   display: inline;
+ .footer-right {
+   color: #fff;
    width: 50%;
+   /*display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: center;*/
  }
